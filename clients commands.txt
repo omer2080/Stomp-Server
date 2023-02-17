@@ -1,0 +1,40 @@
+~~~~~~~~~~~~ FRAMES: ~~~~~~~~~~~~~
+
+CONNECT:
+login 127.0.0.1:7777 meni films
+login 127.0.0.1:7777 marina qwe123
+login 127.0.0.1:7777 yuval 12345
+login 127.0.0.1:7777 omer 12345
+
+
+SUBSCRIBE:
+join germany_spain
+join Israel_Poland
+join hapoel_macabi
+join Germany_Spain
+
+
+UNSUBSCRIBE:
+exit germany_spain
+exit Israel_Poland
+exit hapoel_macabi
+exit Germany_Spain
+
+
+SEND:
+report Israel_Poland israel scored a goal
+report Israel_Poland poland_winned
+report Israel_Poland endgame
+report germany_spain germany_foul_min_31
+report germany_spain big_fight_btw_the_players
+report Germany_Spain big_letters_game
+report Germany_Spain Germany Best Team very long stringggggggggggggggggggggg\nggggggggggggg\n\nggggggggggggg\n\ngoallllllllllllllll!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!GGGGOOOOOAAAAAAAAALLLLLLLLLLLLLLLLLL
+report fp hapoel_macabi LIGAT_AL_game_start
+report fp hapoel_macabi LIGAT_AL_game_end
+
+DISCONNECT:
+logout
+
+
+
+

@@ -1,0 +1,40 @@
+to run:
+
+~~~~~~~ server build(compile): ~~~~~~~
+cd /home/spl211/Documents/assignment_3/spl_assignment3_1501/spl_assignment3/server
+mvn clean compile
+~~~~~~~ running: ~~~~~~~
+mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="7777 tpc"
+~~~~~~~ or ~~~~~~~
+mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="7777 reactor"
+
+
+
+
+~~~~~~~ client compile: ~~~~~~~
+cd /home/spl211/Documents/assignment_3/spl_assignment3_1501/spl_assignment3/client
+make
+~~~~~~~ running: ~~~~~~~
+bin/StompWCIClient
+
+
+
+
+
+
+
+
+
+
+for compiling servers (all at once):
+    cd spl_assignment3/server
+    mvn compile
+    
+for running echo server: (/server/)
+    java bgu/spl/net/impl/echo/EchoServer 7777
+
+for running echoClient: (from /server/)
+    java bgu/spl/net/impl/echo/EchoClient localhost helloServer
+
+
+
